@@ -135,10 +135,20 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   
   <!-- Travel section -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-64 container" id="travel">
-    <h2 class="w3-text-light-grey" id="C4">Thailand</h2>
+    <h2 class="w3-text-light-grey">Thailand</h2>
+	<a data-easing="BANGKOK" href="#BANGKOK">
+        <button type="button" class="btn btn-secondary">Bangkok</button>
+    </a>
+	<a data-easing="AYUTTHAYA" href="#AYUTTHAYA">
+        <button type="button" class="btn btn-secondary">Ayutthaya</button>
+    </a>
+	<a data-easing="RIVER" href="#RIVER">
+        <button type="button" class="btn btn-secondary">Chao River</button>
+    </a>
+	
     <hr style="width:200px" class="w3-opacity">
 	<img src="C:/Users/u0443/Documents/GitHub/GiderChang.github.io/BKK.jpg" alt="BKK map" style="width:70%">
-	<h4 class="w3-text-light-grey">Bangkok</h4>
+	<h4 class="w3-text-light-grey" id="BANGKOK">Bangkok</h4>
 	<a href="https://mimihan.tw/bangkok-trips/" target="blank">曼谷Top10必遊景點</a><br>
 	<a href="http://bangkokgoplay.pixnet.net/blog/category/1092184" target="blank">曼谷幫-深度一日遊</a><br>
 	<a href="http://akhousebkk.pixnet.net/blog/post/62560616-%E3%80%90%E6%9B%BC%E8%B0%B7%E8%87%AA%E7%94%B1%E8%A1%8C%E3%80%91%E6%9B%B4%E6%96%B0%EF%BC%9A%E6%9B%BC%E8%B0%B7%E4%BA%BA%E6%9C%80hot%E7%9A%8413%E8%99%95%E5%89%B5%E6%84%8F" target="blank">曼谷人最hot的13處創意</a><br>
@@ -148,10 +158,14 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 	<a href="http://bangkokgoplay.pixnet.net/blog/post/59969002-%E3%80%90%E6%9B%BC%E8%B0%B7%E5%A4%9C%E5%B8%82%E3%80%91%E8%A7%80%E5%85%89%E5%A4%9C%E5%B8%82%E9%BA%A5%E6%93%B1%E4%BE%86%21%21-%E6%B3%B0%E5%9C%8B%E4%BA%BA%E7%A5%A8%E9%81%B8%E5%BF%85" target="blank">曼谷幫夜市交通</a><br>
 	<a href="https://visionthai.net/article/floating-market-introduction-direction-bangkok/" target="blank">水上市場</a><br><br>
 	
-    <img src="C:/Users/u0443/Documents/GitHub/GiderChang.github.io/AYU.png" alt="AYU map" style="width:70%">	
+    <img src="C:/Users/u0443/Documents/GitHub/GiderChang.github.io/AYU.png" alt="AYU map" style="width:70%" id="AYUTTHAYA">	
     <h4 class="w3-text-light-grey">Ayutthaya</h4>
-	<a href="http://tloveq.pixnet.net/blog/post/44935222-%E6%B3%B0%E5%9C%8B%E5%A4%A7%E5%9F%8E-ayutthaya%E5%9C%B0%E5%9C%96%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97%3A-36%E8%99%95%E5%A4%A7%E5%9F%8E%E6%99%AF%E9%BB%9E%28" target="blank">大城古蹟懶人包</a><br>
-		
+	<a href="http://tloveq.pixnet.net/blog/post/44935222-%E6%B3%B0%E5%9C%8B%E5%A4%A7%E5%9F%8E-ayutthaya%E5%9C%B0%E5%9C%96%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97%3A-36%E8%99%95%E5%A4%A7%E5%9F%8E%E6%99%AF%E9%BB%9E%28" target="blank">大城古蹟懶人包</a><br><br>
+	
+	<img src="C:/Users/u0443/Documents/GitHub/GiderChang.github.io/river.png" alt="Chao River map" style="width:70%" id="RIVER">
+	<h4 class="w3-text-light-grey">Chao River</h4>
+	<a href="http://ryanyang0725.pixnet.net/blog/post/132463664-%E3%80%90%E6%B3%B0%E5%9C%8B%EF%BD%9C%E6%9B%BC%E8%B0%B7%E3%80%91%E6%98%AD%E6%8A%AB%E8%80%B6%E6%B2%B3%E4%B8%80%E6%97%A5%E8%A1%8C%E7%A8%8B%E6%94%BB%E7%95%A5%EF%BC%812017" target="blank">一日遊攻略</a><br>
+    	
   <!-- Shopping section -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="shopping">
     <h2 class="w3-text-light-grey">Shopping List</h2>
@@ -211,6 +225,10 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 	  var SHOPPING = new SmoothScroll('[data-easing="SHOPPING"]', {easing: 'SHOPPING'});
 	  var MURMUR = new SmoothScroll('[data-easing="MURMUR"]', {easing: 'MURMUR'});
 	  var CONTACT = new SmoothScroll('[data-easing="CONTACT"]', {easing: 'CONTACT'});
+	  var BANGKOK = new SmoothScroll('[data-easing="BANGKOK"]', {easing: 'BANGKOK'});
+	  var AYUTTHAYA = new SmoothScroll('[data-easing="AYUTTHAYA"]', {easing: 'AYUTTHAYA'});
+	  var RIVER = new SmoothScroll('[data-easing="RIVER"]', {easing: 'RIVER'});
+	  
   </script>
 
 </body>
